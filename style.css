@@ -1,0 +1,115 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color:#c5e4e7;
+}
+.card{
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px;
+    background-color: #10b5b8;
+    box-shadow: 10px 10px 10px #c5e4;
+
+}
+.sec1{
+    width: 50%;
+    padding:20px;
+    background-color: #f5f5dc;
+    border-radius: 15px;
+    margin: 10px;
+}
+.fle{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fle div{
+    padding: 10px;
+    margin: 10px;
+    width: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #00474b;
+    color: #a4cdd1;
+    cursor: pointer;
+}
+.sec2{
+    margin: 10px;
+    width: 70%;
+    padding:20px;
+    background-color: #00474b;
+    color: #a4cdd1;
+    border-radius: 15px;
+}
+.sec2 p{
+    font-size: 20px;
+}
+
+span{
+    font-size: 25px;
+}
+
+.sec2 button{
+    margin: 0px;
+   width: 70px; 
+}
+
+button{
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+    height: 34px;
+    color:#67c9ce;
+    font-weight:775;
+    border-color: #00474b;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px){
+    .card {
+        flex-direction: column;
+        width: 100%;
+        max-width: none;
+        height: 566px;
+        overflow: hidden;
+        background-color: #67c9ce;
+        align-items: center;
+    }
+.sec1{
+    background-color: white;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 85%;
+}
+.fle{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fle div {
+    padding: 1px;
+    margin: 6px;
+    width: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #00474b;
+    color: #a4cdd1;
+}
+.sec2{   
+    background-color: #00474b;
+    color: #a4cdd1;
+    width: 50%;
+}
+input{
+    width: 100%;
+}
+.button{
+    display: flex;
+}
+button{
+    align-self: center;
+}
+}
